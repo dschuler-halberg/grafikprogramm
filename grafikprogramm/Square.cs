@@ -5,20 +5,27 @@ namespace grafikprogramm
 {
   public class Square : Shape
   {
-    private Point P1, P2, P3;
+    private Point P1, P2, P3, P4;
 
-    public Square(Point p1, Point p2, Point p3, Color color) : base(color)
+    public Square(Point p1, Point p2, Point p3, Point p4, Color color) : base(color)
     {
       P1 = p1;
       P2 = p2;
       P3 = p3;
-      // umsortieren der Punkte, damit Punkt innerhalb des Dreiecks immer rechts der geraden ist.
-      if (!IsRightToLine(P1, P2, P3.X, P3.Y))
+      P4 = p4;
+            // umsortieren der Punkte, damit Punkt innerhalb des Dreiecks immer rechts der geraden ist.
+            if (!IsRightToLine(P1, P2, P3.X, P3.Y))
       {
         P3 = p2;
         P2 = p3;
       }
+
+    if (!IsRightToLine(P2, P3, P4.X, P4.Y))
+    {
+        P4 = p3;
+        P3 = p4;
     }
+        }
     public override Shape Clone()
     {
       throw new NotImplementedException();
