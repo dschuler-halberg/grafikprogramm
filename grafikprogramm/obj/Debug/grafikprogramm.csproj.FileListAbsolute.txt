@@ -1,0 +1,8 @@
+H:\Dokumente\1.Oberstufe\SOT_Schuler\Fork\grafikprogramm\grafikprogramm\bin\Debug\grafikprogramm.exe.config
+H:\Dokumente\1.Oberstufe\SOT_Schuler\Fork\grafikprogramm\grafikprogramm\bin\Debug\triangles.txt
+H:\Dokumente\1.Oberstufe\SOT_Schuler\Fork\grafikprogramm\grafikprogramm\bin\Debug\grafikprogramm.exe
+H:\Dokumente\1.Oberstufe\SOT_Schuler\Fork\grafikprogramm\grafikprogramm\bin\Debug\grafikprogramm.pdb
+H:\Dokumente\1.Oberstufe\SOT_Schuler\Fork\grafikprogramm\grafikprogramm\bin\Debug\ImageViewer.dll
+H:\Dokumente\1.Oberstufe\SOT_Schuler\Fork\grafikprogramm\grafikprogramm\obj\Debug\grafikprogramm.csprojResolveAssemblyReference.cache
+H:\Dokumente\1.Oberstufe\SOT_Schuler\Fork\grafikprogramm\grafikprogramm\obj\Debug\grafikprogramm.exe
+H:\Dokumente\1.Oberstufe\SOT_Schuler\Fork\grafikprogramm\grafikprogramm\obj\Debug\grafikprogramm.pdb

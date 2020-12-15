@@ -24,15 +24,19 @@ namespace grafikprogramm
 
       Triangle t1 = new Triangle(new Point(10, 10), new Point(150, 40), new Point(70, 80), Color.Silver);
       Triangle t2 = new Triangle(new Point(400, 200), new Point(500, 140), new Point(500, 250), Color.LimeGreen);
-      canvas.AddShape(t2);
+
+            Viereck v1 = new Viereck(160, 50, 120, 120, Color.Purple);
+
+            canvas.AddShape(t2);
       canvas.AddShape(r1);
       canvas.AddShape(r2);
       canvas.AddShape(r4);
       canvas.AddShape(r3);
       canvas.AddShape(t1);
+      canvas.AddShape(v1);
 
-      //NoiseFilter noiseImage = new NoiseFilter(canvas);
-      //DisplayUtil.DisplayImage(noiseImage);
+      NoiseFilter noiseImage = new NoiseFilter(canvas);
+      DisplayUtil.DisplayImage(noiseImage);
 
     }
     /// <summary>
