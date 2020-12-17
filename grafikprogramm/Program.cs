@@ -21,9 +21,14 @@ namespace grafikprogramm
       Rectangle r2 = new Rectangle(100, 100, 10, 100, Color.DarkSlateBlue);
       Rectangle r3 = new Rectangle(300, 10, 50, 300, Color.Khaki);
       Rectangle r4 = new Rectangle(300, 250, 50, 50, Color.Red);
+      VarRectangle vr1 = new VarRectangle(new Point(100, 100), new Point(110, 150), new Point(200, 140), new Point(190, 90), Color.Turquoise);
+
+
 
       Triangle t1 = new Triangle(new Point(10, 10), new Point(150, 40), new Point(70, 80), Color.Silver);
       Triangle t2 = new Triangle(new Point(400, 200), new Point(500, 140), new Point(500, 250), Color.LimeGreen);
+
+      canvas.AddShape(vr1);
       canvas.AddShape(t2);
       canvas.AddShape(r1);
       canvas.AddShape(r2);
@@ -31,8 +36,8 @@ namespace grafikprogramm
       canvas.AddShape(r3);
       canvas.AddShape(t1);
 
-      //NoiseFilter noiseImage = new NoiseFilter(canvas);
-      //DisplayUtil.DisplayImage(noiseImage);
+      NoiseFilter noiseImage = new NoiseFilter(canvas);
+      DisplayUtil.DisplayImage(canvas);
 
     }
     /// <summary>
