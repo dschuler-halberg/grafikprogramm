@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Drawing;
 
+
 namespace grafikprogramm
 {
   public class Rectangle : Shape
@@ -37,5 +38,6 @@ namespace grafikprogramm
             }
             return Color.Empty;
         }
+
     }
 }
